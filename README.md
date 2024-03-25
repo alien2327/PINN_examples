@@ -1,2 +1,3 @@
-# BeamInstabilities
-Bean instabilities analysis codes
+# PINN examples
+
+## Example 1
