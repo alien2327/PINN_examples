@@ -69,7 +69,7 @@ where $\circ$ denotes the function composition and $\theta=\{\boldsymbol{W}^{l},
 for $i\in[1,N_{data}]$. $u_{\theta}$ is considered to be a good approximation of $u$ if predictions $u_{\theta}(\boldsymbol{x}_{i})$ are close to target outputs $u_{i}^{data}$ for every data samples $i$. We want to minimize the prediction error on the dataset, hence it's natural to search for a value $\theta^{*}$ solution of the following optimization problem:
 ```math
 \begin{equation}
-    \theta^{*}=\argmin_{\theta}L_{data}(\theta),
+    \theta^{*}=\mathrm{arg\underset{\theta}\,min}L_{data}(\theta),
 \end{equation}
 ```
 with
