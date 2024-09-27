@@ -1,0 +1,3 @@
+# Introduction
+
+Since the introduction of Physics-Informed Neural Networks (PINNs) by Raissi et al. (2019), there has been a significant upsurge in interest in the PINNs technique, spanning various scientific fields. Notably, this technique offers several advantages, such as numerical simplicity compared to conventional schemes. Despite not excelling in terms of performance (accuracy and training computing time), PINNs present a compelling alternative for addressing challenges that prove difficult for traditional methods, such as inverse problems or parametric partial differential equations (PDEs). For comprehensive reviews, refer to Coumo et al. (2022) and Karniadakis et al. (2021.
