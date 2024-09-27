@@ -4,6 +4,6 @@
 
 We consider a partial differential equation (PDE) written in the following residual form as, 
 ```math
-F=0,
+\mathcal{F}\left(u,x,y,u_x,u_y,...\right)=0, \left(x,y\right)\in\Omega,
 ```
 where u(x) denotes the desired solution and ux, uy, ... are the required associated partial derivatives of different orders with respect to x and y. Specific conditions must be also imposed at the domain boundary D depending on the problem (see below in the paper).
