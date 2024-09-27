@@ -82,7 +82,8 @@ $L_{data}$ is called the loss function, and equation (8) the learning problem. I
 ```math
 \begin{equation}
     \theta^{(j+1)}=\theta^{(j)}-l_{r}\nabla_{\theta}L_{data}(\theta^{(j)}), 
-\end{equation} \tag{10}
+\end{equation}
+\tag{10}
 ```
 with $L=L_{data}$, for the $j$-th iteration also called epoch in the literature, where $l_{r}$ is called the learning rate parameter. In this work, we choose the well known Adam optimizer. This algorihm likely involves updating the network parameters $(\theta)$ iteratively in the opposite direction of the gradient to reduce the loss. The standard automatic differentiation technique is necessary to compute derivatives with respect to the NN paremters, i.e. weights and biases (Baydin et al., 2018). This technique consists of storing the various steps in the calculation of a compound function, then calculating its gradient using the chain rule. In practice, the learning process is significantly streamlined by leveraging open-source software libraries such as TensorFlow or PyTorch, especially when working with Python. These libraries provide pre-implemented functions and tools for building, training, and optimizing neural network models. TensorFlow and PyTorch offer user-friendly interfaces, extensive documentation, and a wealth of community support, making them popular choices for researchers and practitioners in the field of deep learning. Note that, in this work TensorFlow library is used for direct problems while PyTorch is preferred for parametric and inverse problem.
 
