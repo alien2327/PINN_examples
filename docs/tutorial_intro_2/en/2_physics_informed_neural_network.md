@@ -73,9 +73,11 @@ $$
 \end{align}
 $$
 with
+
 $$
 \begin{align}
     L_{data}(\theta)=\frac{1}{N_{data}}\sum_{i=1}^{N_{data}}\left|u_{\theta}(\boldsymbol{x}_{i})-u_{i}^{data}\right|^{2}.
 \end{align}
 $$
+
 $L_{data}$ is called the loss function, and align (8) the learning problem.
