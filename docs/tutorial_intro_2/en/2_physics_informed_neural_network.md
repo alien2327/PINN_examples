@@ -73,9 +73,9 @@ $$
 \end{equation}
 $$
 with
-$$
+```math
 \begin{equation}
     L_{data}(\theta)=\frac{1}{N_{data}}\sum_{i=1}^{N_{data}}\left|u_{\theta}(\boldsymbol{x}_{i})-u_{i}^{data}\right|^{2}.
 \end{equation}
-$$
+```
 $L_{data}$ is called the loss function, and equation (8) the learning problem.
