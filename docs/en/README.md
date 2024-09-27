@@ -1,1 +1,5 @@
+## Abstract
+I provide an introduction to the application of deep learning and neural networks for solving partial differential equations (PDEs). The approach, known as physics-informed neural networks (PINNs), involves minimizing the residual of the equation evaluated at various points within the domain. Boundary conditions are incorporated either by introducing soft contraints the solution with hard contraints. PINNs are tested on diverse PDEs extracted from two-dimensional physical/astrophysical problems. Specifically, we explore Grad-Shafranov-like equations that capture magnetohydrodynamic equilibria in magnetically dominated plasmas. Lane-Emden equations that model internal structure of stars in self-gravitating hydrostatic equilibrium are also considered. The flexibility of the method to handle various boundary conditions is illustrated through various examples, as well as its ease in solving parametric and inverse problems. The corresponding Python codes based on PyTorch/TensorFlow libraries are made available.
+
+## Index
 1. [Introduction](./1_introduction.md)
